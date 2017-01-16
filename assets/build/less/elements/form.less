@@ -1,0 +1,81 @@
+form {
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 525px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100%;
+
+  input {
+    border: 1px solid #fff;
+    color: #454545;
+    font-family: "BenchNine", serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 17px;
+    width: 100%;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    @media (min-width: 768px) {
+      display: inline-block;
+      width: 49.2%;
+    }
+  }
+
+  input[name="LNAME"],
+  input[name="ZIP"] {
+    @media (min-width: 768px) {
+      float: right;
+    }
+  }
+
+  button {
+    background-color: #fff200;
+    border: 0;
+    color: #454545;
+    cursor: pointer;
+    display: block;
+    font-family: "BenchNine", serif;
+    font-size: 20px;
+    font-weight: 600;
+    height: 55px;
+    line-height: 55px;
+    outline: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+
+    &:hover {
+      background-color: darken(#fff200, 10%);
+    }
+  }
+
+  p {
+    &.form--message {
+      color: #fff;
+    }
+
+    &.form--legal {
+      font-size: 15px;
+      text-align: center;
+    }
+  }
+
+  .parsley-error {
+    border-color: #ec3029;
+  }
+
+  .parsley-errors-list {
+    display: none;
+  }
+}

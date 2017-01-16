@@ -1,0 +1,12 @@
+{
+  "name": "unpopularvote",
+  "version": "0.0.1",
+  "description": "Repository for unpopularvote.org.",
+  "dependencies": {},
+  "devDependencies": {
+    "ajaxchimp": "latest",
+    "jquery": "1.12.4",
+    "parsleyjs": "latest",
+    "normalize.css": "latest"
+  }
+}
